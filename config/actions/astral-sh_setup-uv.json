@@ -5,6 +5,11 @@
     "+^master$",
     "+^v[0-9]+(\\.[0-9]+){0,2}$"
   ],
+  "ignoreTags": [
+    "^v1(\\..*)?$",
+    "^v2(\\..*)?$",
+    "^v3(\\..*)?$"
+  ],
   "branches": {},
   "defaultBranch": "master",
   "tags": {
